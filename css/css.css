@@ -1,0 +1,475 @@
+body{
+    font-family: 'Comfortaa', cursive;
+   
+}
+:root{
+    --light-pink:#FFE0E9;
+    --pink:#E45983;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container2{
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container3{
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container4{
+    width: 294px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    list-style: none;
+    font-size: 14px;
+}
+header ul a{
+    color: inherit;
+    text-decoration: none;
+}
+header ul img{
+    margin-top: -30px;
+}
+.card{
+    background-color: var(--light-pink);
+    width: 704px;
+    height: 250px;
+    border-radius: 35px;
+    padding: 58px 33px 58px 33px;
+    margin-top: 100px;
+}
+.card p{
+    font-size: 20px;
+}
+.card p span{
+    color: var(--pink);
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.menu{
+    background-color: var(--light-pink);
+}
+.cardm{
+    margin-top: 30px;
+    width: 263px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price p{
+    padding-top: 20px;
+}
+.cardm p{
+    font-weight: 600;
+}
+.price button{
+    background-color: var(--pink);
+    border-radius: 31px;
+    width: 107px;
+    height: 51px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.menu {
+    margin-top: 90px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.flexcake{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu2{
+    margin-top: 90px;
+}
+.flexind form{
+    width: 346px;
+    height: 500px;
+    background-color: var(--pink);
+    border-radius: 85px;
+    padding: 10px 0 10px 0;
+}
+.flex{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+form h3{
+    
+    text-align: center;
+    color: white;
+
+}
+#name{
+    width: 279px;
+    height: 53px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--light-pink);
+    font-size: 16px;
+    color: var(--pink);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;
+
+}
+button{
+    width: 175px;
+    height: 51px;
+    background-color: var(--light-pink);
+    border-radius: 31px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;
+}
+input::placeholder{
+    color: var(--pink);
+    padding-left: 10px;
+}
+textarea::placeholder{
+    color: var(--pink);
+    
+
+}
+.ind{
+    margin-top: 80px;
+    text-align: center;
+}
+.ind h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.flexind{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.ind p{
+    font-size: 20px;
+}
+.ind p span{
+    color: var(--pink);
+}
+.dost{
+    background-color: var(--pink);
+    padding: 80px 0 80px 0;
+    margin-top: 80px;
+    
+}
+.fleximg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 352px;
+    width: 350px;
+}
+.flexdost{
+    display: flex;
+    justify-content: space-around;
+}
+.fleximg p{
+    text-align: center;
+    color: var(--light-pink);
+    font-size: 24px;
+}
+.img2{
+    height: 290px;
+    width: 300px;
+}
+.dost h1{
+    color: var(--light-pink);
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.fleximg .p{
+    color:black;
+    text-align: center;
+    padding-top: 20px;
+}
+.spo{
+    text-align: center;
+    padding: 80px 0 80px 0;
+    margin-bottom: 20px;
+}
+.spo h1{
+    margin-bottom: 70px;
+}
+.flexotz2{
+    width: 880px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.obj1 p{
+    font-size: 20px;
+    font-weight:700;
+
+}
+.flexotz3{
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.otz{
+    background-color: var(--light-pink);
+    padding: 80px 0 85px 0;
+    height: 1355px;
+}
+.obj1{
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgw{
+    width: 235px;
+}
+.otz h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.flexotz{
+    height: 1086px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.form2 form{
+    width: 832px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 643px;
+    border-radius: 31px;
+    background-color: var(--pink);
+    
+
+    
+   
+}
+.form2{
+    margin-top: 80px;
+    
+    
+    
+    
+}
+.form2 h1{
+    margin-bottom: 60px;
+    text-align: center;
+}
+#otziv{
+    background-color: var(--light-pink);
+    font-size: 16px;
+    color: var(--pink);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;
+    border-radius: 31px;
+    width: 681px;
+    height: 252px;
+    border: none;
+    padding: 20px 0 0 20px;
+
+}
+.flexform2{
+   padding-top: 80px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexinput1{
+    display: flex;
+    justify-content: space-between;
+}
+.flex3{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 388px;
+}
+#name1{
+    background-color: var(--light-pink);
+    font-size: 16px;
+    color: var(--pink);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;
+    border-radius: 31px;
+    width: 282px;
+    height: 75px;
+    border: none;
+}
+footer{
+    background-color: var(--pink);
+    margin-top: 150px;
+    color: var(--light-pink);
+    padding: 101px 0 145px 0;
+
+}
+.imges{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+   
+}
+footer p{
+    font-size: 20px;
+}
+footer .p2{
+    font-size: 31px;
+}
+.flp{
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 90%;
+    }
+    .container2{
+        width: 95%;
+    }
+    
+    .cardm img{
+        width: 90%;
+    }
+    .card{
+       margin-top:-100px ;
+        background-color: white;
+    }
+    .banner img{
+        display: none;
+    }
+    .flexotz2{
+       flex-direction: column;
+       width: 300px;
+       height: 300px;
+    }
+    .obj1{
+        height: 100px;
+         margin-top: 20px;
+    }
+    /* .none{
+        display: none;
+    } */
+    .flexotz{
+        display: flex;
+    justify-content: space-around;
+    height: 1500px;
+    align-items: center;
+    margin-top: -100px;
+    }
+    .otz{
+           height: 1700px;
+    }
+    .price button{
+        width: 30%;
+
+
+    }
+   .flexotz3 p{
+    width: 300px;
+    height: 200px;
+
+   }
+   .form2 form{
+    margin-left: 139px;
+   }
+   .flexotz3{
+    height: 100px;
+
+   }
+   .imgw{
+    width: 159px;
+  }
+  .flexotz2 img{
+    width: 70%;
+
+  }
+
+}
+@media screen and (max-width:800px){
+    .container{
+        width: 80%;
+    }
+    .container2{
+        width: 90%;
+    }
+    header{
+        display: none;
+    }
+    .flexcake{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu h2, .menu2 .h1{
+        text-align: center;
+    }
+    .ind img{
+        display: none;
+    }
+    .flexdost{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 800px;
+        align-items: center;
+    }
+    .form2 form, .flex3, .flexinput1{
+        width: 70%;
+    }
+    #otziv{
+        width: 98%;
+    }
+    #name1{
+        width: 163px;
+        height: 61px;
+        margin-left: 10px;
+    }
+    .form2 form{
+        margin-left: 92px;
+    }
+    .imgw{
+        width: 159px;
+    }
+    
+}
